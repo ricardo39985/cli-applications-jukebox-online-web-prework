@@ -12,8 +12,8 @@ def play(songs_array)
   pp user_input
   if songs_array.include? user_input
     puts "Playing #{user_input}"
-  elsif user_input.to_i>=1 and user_input.to_i <= songs_array.length
-    puts "#{songs_array[user_input.to_i-1]}"
+  elsif user_input.to_i >=1 and user_input.to_i <= songs_array.length
+    puts "Playing #{songs_array[user_input.to_i-1]}"
   else
     puts "Invalid input, please try again"
   end

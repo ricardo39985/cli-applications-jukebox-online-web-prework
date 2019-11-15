@@ -28,6 +28,7 @@ def exit_jukebox
 end
 
 def run(songs)
+  pp songs
   puts "Please enter a command:"
   user_i = gets.strip
   while user_i != "exit"

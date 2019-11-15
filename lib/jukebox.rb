@@ -26,6 +26,7 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+<<<<<<< HEAD
 
 def run(songs)
   puts "Please enter a command:"
@@ -42,3 +43,21 @@ def run(songs)
   end
   exit_jukebox
 end
+=======
+#
+# def run(songs)
+#   puts "Please enter a command:"
+#   user_i = gets.strip
+#   while user_i != "exit"
+#     if user_i == "play"
+#       play(songs)
+#     elsif user_i == "list"
+#       list(songs)
+#     else
+#       help
+#     end
+#     user_i = gets.strip
+#   end
+#   exit_jukebox
+# end
+>>>>>>> db71c9555d3d550e5865ab7375858e0443ff9139

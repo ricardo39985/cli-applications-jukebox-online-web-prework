@@ -30,8 +30,8 @@ end
 def run(songs)
   pp songs
   user_i = ''
-  puts "Please enter a command:"
-  user_i = gets.strip
+  # puts "Please enter a command:"
+  # user_i = gets.strip
   while user_i != "exit"
     puts "Please enter a command:"
     user_i = gets.strip

@@ -29,9 +29,12 @@ end
 
 def run(songs)
   pp songs
+  user_i = ''
   puts "Please enter a command:"
   user_i = gets.strip
   while user_i != "exit"
+    puts "Please enter a command:"
+    user_i = gets.strip
     if user_i == "play"
       play(songs)
     elsif user_i == "list"
@@ -39,8 +42,8 @@ def run(songs)
     else
       help
     end
-    puts "Please enter a command:"
-    user_i = gets.strip
+    # puts "Please enter a command:"
+    # user_i = gets.strip
   end
   exit_jukebox
 end

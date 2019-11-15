@@ -12,7 +12,7 @@ def play(songs_array)
   pp user_input
   if songs_array.include? user_input
     puts "Playing #{user_input}"
-  elsif user_input.to_i>=1 and user_input.to_i < songs_array.length
+  elsif user_input.to_i>=1 and user_input.to_i <= songs_array.length
     puts "#{songs_array[user_input.to_i-1]}"
   else
     puts "Invalid input, please try again"
@@ -39,6 +39,7 @@ def run(songs)
     else
       help
     end
+    puts "Please enter a command:"
     user_i = gets.strip
   end
   exit_jukebox

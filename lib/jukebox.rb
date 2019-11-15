@@ -47,19 +47,3 @@ def run(songs)
   end
   exit_jukebox
 end
-#
-# def run(songs)
-#   puts "Please enter a command:"
-#   user_i = gets.strip
-#   while user_i != "exit"
-#     if user_i == "play"
-#       play(songs)
-#     elsif user_i == "list"
-#       list(songs)
-#     else
-#       help
-#     end
-#     user_i = gets.strip
-#   end
-#   exit_jukebox
-# end

@@ -39,7 +39,7 @@ def run(songs)
       play(songs)
     elsif user_i == "list"
       list(songs)
-    else
+    elsif user_i == "help"
       help
     end
     # puts "Please enter a command:"
